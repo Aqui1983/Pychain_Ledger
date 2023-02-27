@@ -2,6 +2,34 @@
 
 ![alt=""](Images/application-image.png)
 
+## A small scale blockchain
+
+[<img src="https://img.shields.io/badge/language-Python-orange.svg?logo=LOGO">](https://www.python.org/)
+[<img src="https://img.shields.io/badge/platform-dev-orange.svg?logo=LOGO">](<LINK>)
+[<img src="https://img.shields.io/badge/libraries-6-orange.svg?logo=LOGO">](<LINK>)
+
+-----
+
+## Technologies
+
+*The technologies used for the program to run are as follows:*
+### Languages:
+### [Python](python.org)
+### Import the following libraries and dependencies:
+>`Pandas`       https://pandas.pydate.org/
+
+>`Streamlit`    http://streamlit.io
+
+>`dataclasses`  https://docs.python.org/3/library/dataclasses.html
+
+>`typing`       https://docs.python.org/3/library/typing.html
+
+>`datetime`     https://docs.python.org/3/library/datetime.html
+
+>`hashlib`      https://docs.python.org/3/library/hashlib.html
+
+## Instructions:
+
 You’re a fintech engineer who’s working at one of the five largest banks in the world. You were recently promoted to act as the lead developer on their decentralized finance team. Your task is to build a blockchain-based ledger system, complete with a user-friendly web interface. This ledger should allow partner banks to conduct financial transactions (that is, to transfer money between senders and receivers) and to verify the integrity of the data in the ledger.
 
 You’ll make the following updates to the provided Python file for this assignment, which already contains the basic `PyChain` ledger structure that you created throughout the module:
@@ -83,11 +111,17 @@ Test your complete `PyChain` ledger and user interface by running your Streamlit
 
 2. In the terminal, run the Streamlit application by using `streamlit run pychain.py`.
 
+![Initial App Screenshot](Images/Initial_app.png)
+
 3. Enter values for the sender, receiver, and amount, and then click the Add Block button. Do this several times to store several blocks in the ledger.
 
 4. Verify the block contents and hashes in the Streamlit dropdown menu. Take a screenshot of the Streamlit application page, which should detail a blockchain that consists of multiple blocks. Include the screenshot in the `README.md` file for your GitHub repository.
 
+![Verified Blocks](Images/verified_blocks.png)
+
 5. Test the blockchain validation process by using the web interface. Take a screenshot of the Streamlit application page, which should indicate the validity of the blockchain. Include the screenshot in the `README.md` file for your homework repository.
+
+![Validated Chain](Images/Validated_chain.png)
 
 ---
 ## Submission
